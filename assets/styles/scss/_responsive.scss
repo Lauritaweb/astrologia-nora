@@ -1,0 +1,57 @@
+@media (width<=768px){
+    body{
+        background-size: auto 100vh;
+    }
+    .container-fluid{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    nav{
+        .navbar-brand{
+            img{
+                width: 170px;
+            }
+        }
+    }
+    header{
+        text-align: center;
+        &.jumbotron img{
+            transform: none!important;
+        }
+        a.btn-key{
+            width: 100%;
+            font-size: .8em;
+        }
+    }
+    main{
+        background-color: white;
+    }
+    #curso-diosas{
+        img{
+            transform: none!important;
+            width: 100%;
+        }
+        .btn-key{
+            display: block;
+            width: 100%;
+        }
+    }
+    #sobre-mi{
+        img{
+            transform: none;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    .video-banner{
+        .overlay{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    .libros{
+        img{
+            width: 100%;
+        }
+    }
+}

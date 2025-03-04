@@ -7,7 +7,7 @@
     <meta name="description" content="Descubre el poder de las Diosas con Nora Sindona. Cursos de astrología y numerología, libros y herramientas de autoconocimiento. Descarga el curso y despierta tu potencial."/>
     <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Estilos personalizados -->
     <link href="./assets/styles/css/main.css" rel="stylesheet">
 </head>
@@ -17,19 +17,25 @@
         <a class="navbar-brand" href="#">
             <img src="./assets/img/logo-Nora-Sindona.svg" alt="Logo de Nora Sindona - Astrología y Numerología">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+       </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#curso-diosas">Curso</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#curso">Curso</a>
+                    <a class="nav-link" href="#libros">Libros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#libros">Libros</a>
+                  <a class="nav-link" href="#faqs">F.A.Q.S</a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://astrologianora.com.ar/tienda/">Tienda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contacto">Contacto</a>
@@ -41,14 +47,15 @@
     <header class="jumbotron bg-transparent my-0">
         <div class="container-fluid">
            <div class="row align-items-center">
-            <div class="col-lg-8 pt-0">
+            <div class="col-lg-8 pt-5 pt-md-0">
                 <span class="text-uppercase fs-5 text-dark fw-bold">Nuevo Curso</span>
                 <h1 class="fs-1 text-key fw-bold">El poder de las Diosas</h1>
                 <p class="lead">Un viaje astrológico y numerológico</p>
-                <a href="#" class="btn btn-key btn-lg">Obtén el curso hoy y despierta <br> tu diosa interior</a>
+                <a href="https://astrologianora.com.ar/tienda/product/el-poder-de-las-diosas-curso-de-astrologia-y-numerologia/" class="btn btn-key btn-lg d-none d-md-block">Obtén el curso hoy y despierta <br> tu diosa interior</a>
             </div><!-- end col 8 -->
             <div class="col-lg-4 pt-0">
                 <img src="./assets/img/img-Nora-Sindona.png" alt="">
+                <a href="https://astrologianora.com.ar/tienda/product/el-poder-de-las-diosas-curso-de-astrologia-y-numerologia/" class="btn btn-key btn-lg d-block d-md-none pb-3">Obtén el curso hoy y despierta <br> tu diosa interior</a>
             </div><!-- end col 4 -->
            </div>
         </div>
@@ -60,15 +67,15 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-md-7">
-                        <h2 class="text-key fs-2">Descubrí la Diosa que hay en vos</h2>
+                        <h2 class="text-key fs-2 text-center text-md-start">Descubrí la Diosa que hay en vos</h2>
                         <p class="lh-2 fs-5">El Taller de Diosas de Nora Sindona es un recorrido transformador por la astrología, la numerología y la mitología. A través de la energía de las Diosas de la Luz y de la Sombra, aprenderás a conectar con tu fuerza interior, soltar viejas ataduras y despertar tu verdadero poder.
                         <br><br>
                         Explora la sabiduría de diosas como Afrodita, Atenea, Lilith y Hécate, y descubre cómo su energía puede ayudarte a sanar, crecer y potenciar tu vida.</p>
-                        <a href="#" class="btn btn-key">
+                        <a href="https://astrologianora.com.ar/tienda/product/el-poder-de-las-diosas-curso-de-astrologia-y-numerologia/" class="btn btn-key">
                             Comprá y comenzÁ tu viaje hoy
                         </a>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 mt-3 mt-md-0">
                         <img src="./assets/img/img-diosas.png" alt="Nora Sindona" class="">
                     </div>
                 </div>
@@ -83,7 +90,7 @@
                         <img src="./assets/img/img-sobre-nora-sindona.png" alt="El Poder de las Diosas" class="img-fluid">
                     </div>
                     <div class="col-md-6 d-flex flex-column justify-content-center">
-                        <h2 class="text-key fs-2 fw-bold">Nora Viviana Sindona</h2>
+                        <h2 class="text-key fs-2 fw-bold text-center text-md-start mt-3 mt-md-0">Nora Viviana Sindona</h2>
                         <p class="lh-2 fs-5">
                             Con más de 40 años de experiencia, Nora Sindona es astróloga, numeróloga y especialista en mitología con una orientación humanista y psicológica. Ha sido columnista en radio y televisión, y es autora de libros como Los Números desde el Mito.
                         </p>
@@ -98,17 +105,19 @@
             </div>
         </section>
 
+        <!-- Banner con video -->
         <section class="video-banner">
             <div class="overlay d-flex justify-content-center align-items-center">
                 <p class="fs-1 text-center fw-bold">
                     El universo te habla... <br>
-                    ¿Estás lista para escuchar su mensaje?  
+                    ¿Estás listo para escuchar su mensaje?  
                 </p>
             </div>
             <video src="./assets/video/universe.mp4" autoplay loop muted width="100%"></video>
         </section>
 
-        <section class="libros">
+        <!-- Libros -->
+        <section class="libros" id="libros">
             <div class="container-fluid">
                 <div class="row py-5">
                     <div class="col-md-6">
@@ -125,134 +134,258 @@
                             Sumérgete en sus páginas y aprende a interpretar los mensajes que el universo tiene para vos.
                         </p>
                         <p class="lh-2 fs-5">
-                            <a href="#">
+                            <a href="https://astrologianora.com.ar/libros/Los-numeros-desde-el-mito-Nora-Sindona-cap-1.pdf">
                                 📖 Descargá y leé gratis el capítulo 1
                             </a>
                             y comenzá a transformar tu mirada sobre la vida.
                         </p>
+                        <a href="https://astrologianora.com.ar/tienda/" class="btn btn-key">Comprá los libros</a>
                     </div>
                 </div><!-- end row -->
             </div><!-- end container -->
         </section>
 
-        <section class="faqs py-5">
-            <h2 class="text-key text-center fw-bold pb-3">Preguntas frecuentes</h2>
+        <section class="faqs py-5" id="faqs">
+            <h2 class="text-key text-center fw-bold pb-3 fs-2">Preguntas frecuentes</h2>
             <div class="container-fluid">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            ¿Cómo descargo el curso "El Poder de las Diosas"?
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
+                
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      ¿Cómo descargo el curso "El Poder de las Diosas"?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Después de realizar la compra del curso a través de la tienda, recibirás un enlace para descargar los PDFs y los videos del curso directamente desde tu cuenta en el sitio.
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            ¿En qué formato recibiré el curso? (PDF, videos, audios, etc.)
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Necesito conocimientos previos en astrología o numerología para hacerlo?
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            ¿Cuánto tiempo tengo acceso al material del curso?
-                          </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            ¿Puedo leer un fragmento de los libros antes de comprarlos?
-                          </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            ¿Dónde puedo contactar a Nora si tengo dudas sobre el curso?
-                          </button>
-                        </h2>
-                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                            ¿Dónde puedo contactar a Nora si tengo dudas sobre el curso?
-                          </button>
-                        </h2>
-                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                            ¿Hay reembolsos si no estoy satisfecha con el curso?
-                          </button>
-                        </h2>
-                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-
                   </div>
-            </div>
+                </div>
+                
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      ¿En qué formato recibiré el curso? (PDF, videos, audios, etc.)
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      El curso "El Poder de las Diosas" está disponible en formato PDF para los materiales escritos, y en formato video para las clases grabadas. Podrás acceder a ambos después de la compra.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      ¿Necesito conocimientos previos en astrología o numerología para hacerlo?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      No es necesario tener conocimientos previos en astrología o numerología. El curso está diseñado para ser accesible para todos los niveles, desde principiantes hasta más avanzados.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      ¿Cuánto tiempo tengo acceso al material del curso?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      El acceso al material del curso es de por vida. Una vez que compres el curso, podrás descargarlo y consultarlo siempre que lo necesites.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      ¿Puedo leer un fragmento de los libros antes de comprarlos?
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Sí, puedes leer el primer capítulo gratis del libro "Los Números Desde el Mito" antes de decidirte a comprarlo. <a href="#">Descargalo aquí</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      ¿Dónde puedo contactar a Nora si tengo dudas sobre el curso?
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Puedes contactar a Nora a través de Instagram, enviándole un mensaje directo a su cuenta oficial.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      ¿Hay reembolsos si no estoy satisfecha con el curso?
+                    </button>
+                  </h2>
+                  <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Lamentablemente no ofrecemos reembolsos una vez que el curso ha sido comprado. Sin embargo, si tienes alguna duda o problema con el contenido, puedes contactarnos para resolverlo.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+                 
+            </div> <!-- end container fluid -->
         </section>
 
+        <!-- Testimonios -->
+        <section class="testimonios py-5">
+          <h2 class="fw-bold text-key fs-2 text-center">Testimonios</h2>
+          <div class="container">
+              <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel">
+                  <!-- Indicadores -->
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+      
+                  <!-- Contenido del Carrusel -->
+                  <div class="carousel-inner">
+                      <!-- Slide 1 -->
+                      <div class="carousel-item active">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <figure class="text-center">
+                                      <img src="./assets/img/fototestimonial-1.png" class="img-fluid rounded-circle" alt="Testimonio 1">
+                                      <figcaption>Monica Muiña</figcaption>
+                                      <p>
+                                        Estudiar con Nora es sumergirse en la sabiduría milenaria que abarca todos los conocimientos Astrologia, Numerologia, Mitología, Tarot, Cabala y muchas mas. La pasión, el compromiso y el profesionalismo son el sello en todas sus clases. 
+                                        Sin lugar a dudas, Nora es Una gran maestra y una gran Alma Maga !!!!
+                                      </p>
+                                  </figure>
+                              </div>
+                              <div class="col-md-4">
+                                  <figure class="text-center">
+                                      <img src="./assets/img/fototestimonial-1.png" class="img-fluid rounded-circle" alt="Testimonio 2">
+                                      <figcaption>Marcela Noemi Caruso</figcaption>
+                                      <p>
+                                        Gracias por descubrir junto a vos este camino. Un bello despertar.
+                                        Es difícil que el maestro llegue al alumno. Vos lo haces.
+                                        Gracias, gracias, gracias
+                                      </p>
+                                  </figure>
+                              </div>
+                              <div class="col-md-4">
+                                  <figure class="text-center">
+                                      <img src="./assets/img/fototestimonial-1.png" class="img-fluid rounded-circle" alt="Testimonio 3">
+                                      <figcaption>María Cristina Gil</figcaption>
+                                      <p>
+                                        Muy lindas tus clases, muy enriquecedoras, dejando mucho aprendizaje. Muchas gracias por brindarnos tanto conocimiento.
+                                      </p>
+                                  </figure>
+                              </div>
+                          </div>
+                      </div>
+      
+                      <!-- Slide 2 -->
+                      <div class="carousel-item">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <figure class="text-center">
+                                      <img src="./assets/img/fototestimonial-1.png" class="img-fluid rounded-circle" alt="Testimonio 4">
+                                      <figcaption>Norma Beatriz Santacruz</figcaption>
+                                      <p>Gracias  por todo lo que compartis con nosotras en cada curso. Gracias  por enseñarnos a bajar  lo aprendido  al corazón .</p>
+                                  </figure>
+                              </div>
+                              <div class="col-md-4">
+                                  <figure class="text-center">
+                                      <img src="./assets/img/fototestimonial-1.png" class="img-fluid rounded-circle" alt="Testimonio 5">
+                                      <figcaption>Ana María López</figcaption>
+                                      <p>Un curso maravilloso, muy enriquecedor. Gracias Nora...</p>
+                                  </figure>
+                              </div>
+                              <div class="col-md-4">
+                                  <figure class="text-center">
+                                      <img src="./assets/img/fototestimonial-1.png" class="img-fluid rounded-circle" alt="Testimonio 6">
+                                      <figcaption>Laura González</figcaption>
+                                      <p>Aprendí muchísimo con Nora, gracias por compartir tanta sabiduría...</p>
+                                  </figure>
+                              </div>
+                          </div>
+                      </div>
+      
+                      
+                  </div>
+      
+                  <!-- Botones de Navegación -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                  </button>
+              </div>
+          </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto py-5 d-flex flex-column align-items-center" id="contacto">
+          <h2 class="fw-bold text-key fs-2 text-center mt-5">Contacto</h2>
+          <div class="d-flex flex-column text-key fs-5">
+            <p class="mt-3">
+              <img src="./assets/img/whatsapp.svg" alt="">
+              +54 9 11 6429-0682
+            </p>
+            <p>
+              <img src="./assets/img/envelope-heart.svg" alt="">
+              sindonanora80@gmail.com
+            </p>
+            <p>
+              <img src="./assets/img/instagram.svg" alt="">
+              @nora_altair
+            </p>
+          </div>
+        </section>
+      
     </main>
    <!-- Footer -->
-   <footer class="text-center py-4 bg-dark text-light">
+   <footer class="text-center py-4 text-key">
     <p>© 2025 Nora Sindona. Todos los derechos reservados.</p>
+    <hr>
+    <p>
+      Diseño by 
+      <a href="https://twc.com.ar/" class="text-key" target="_blank">
+        The Wireframes Company
+      </a>
+    </p>
    </footer>
 
 <!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      var multipleCardCarousel = document.querySelector("#carouselTestimonios");
+  
+      if (window.matchMedia("(min-width: 768px)").matches) {
+          var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+              interval: 3000, // Cambia cada 3 segundos
+              wrap: true
+          });
+      }
+  });
+  </script>
+  
 </body>
 </html>
  
