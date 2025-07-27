@@ -49,6 +49,7 @@ $mainFont:"Nunito Sans";
     font-size: 1em;
     width: 400px;
     transition: all ease .8s;
+    letter-spacing: 3%;
     &:hover{
         background-image: linear-gradient(to bottom, deeppink, $keyColor);
         color: black;
@@ -61,7 +62,7 @@ $mainFont:"Nunito Sans";
 body{
     background: url(../../img/bg-header.png) no-repeat;
     background-position: top center;
-    background-size: 100% auto;
+    background-size: 100% 608px;
 }
 .container-fluid{
     padding-left: 50px;

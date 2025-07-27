@@ -35,6 +35,7 @@
   font-size: 1em;
   width: 400px;
   transition: all ease 0.8s;
+  letter-spacing: 3%;
 }
 .btn-key:hover {
   background-image: linear-gradient(to bottom, deeppink, #653E6F);
@@ -49,7 +50,7 @@
 body {
   background: url(../../img/bg-header.png) no-repeat;
   background-position: top center;
-  background-size: 100% auto;
+  background-size: 100% 608px;
 }
 
 .container-fluid {
@@ -57,12 +58,11 @@ body {
   padding-right: 50px;
 }
 
-header.jumbotron img {
-  transform: translate(50px, 30px);
+header.jumbotron {
+  height: 498px !important;
 }
-
-#curso-diosas img {
-  transform: translateX(10px);
+header.jumbotron img {
+  transform: translate(6vw, 30px);
 }
 
 #sobre-mi img {
@@ -102,6 +102,22 @@ header.jumbotron img {
   font-weight: 800;
 }
 
+.talleres .card {
+  background-color: rgba(244, 211, 214, 0.3);
+}
+.talleres .card .btn-key {
+  width: 200px;
+  background: none;
+  border: solid 1px deeppink;
+  color: deeppink;
+}
+.talleres .card .btn-key:hover {
+  background-color: deeppink;
+  color: white;
+  border: none;
+  transition: all ease 0.5s;
+}
+
 .faqs {
   background: url(../../img/pattern.png);
 }
@@ -123,8 +139,7 @@ header.jumbotron img {
   padding: 20px;
 }
 .testimonios .carousel figure {
-  background-color: #653E6F;
-  color: white;
+  color: #653E6F;
   padding: 10px 30px;
   display: flex;
   flex-direction: column;
@@ -155,13 +170,19 @@ header.jumbotron img {
   font-size: 1.2em;
 }
 .testimonios .carousel .carousel-indicators {
-  bottom: -30px;
+  bottom: -10px;
 }
 .testimonios .carousel .carousel-indicators button {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #E8B4AB;
+  background-color: deeppink;
+}
+.testimonios .carousel .carousel-control-next-icon {
+  background-image: url(../../img/arrow-right-circle-fill.svg);
+}
+.testimonios .carousel .carousel-control-prev-icon {
+  background-image: url(../../img/arrow-left-circle-fill.svg);
 }
 
 .contacto {
@@ -170,6 +191,14 @@ header.jumbotron img {
 }
 .contacto div.d-flex {
   width: 300px;
+}
+
+.wa {
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
 }
 
 @media (width <= 768px) {
@@ -183,8 +212,15 @@ header.jumbotron img {
   nav .navbar-brand img {
     width: 170px;
   }
+  body {
+    background-image: none;
+    background-color: #F4D3D6 !important;
+  }
   header {
     text-align: center;
+  }
+  header.jumbotron {
+    height: 95vh !important;
   }
   header.jumbotron img {
     transform: none !important;
@@ -196,6 +232,9 @@ header.jumbotron img {
   main {
     background-color: white;
   }
+  #curso-diosas {
+    text-align: center;
+  }
   #curso-diosas img {
     transform: none !important;
     width: 100%;
@@ -203,6 +242,9 @@ header.jumbotron img {
   #curso-diosas .btn-key {
     display: block;
     width: 100%;
+  }
+  #sobre-mi {
+    text-align: center;
   }
   #sobre-mi img {
     transform: none;
@@ -213,8 +255,25 @@ header.jumbotron img {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .libros {
+    text-align: center;
+  }
   .libros img {
     width: 100%;
+  }
+  .testimonios .carousel-item .row .col-md-6 figure {
+    width: 100% !important;
+    transform: translate(-45vw, 0);
+  }
+  .testimonios .carousel-item .row .col-md-6 figure p {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .talleres {
+    text-align: center !important;
+  }
+  .talleres .btn-key {
+    margin: auto;
   }
 }
 
